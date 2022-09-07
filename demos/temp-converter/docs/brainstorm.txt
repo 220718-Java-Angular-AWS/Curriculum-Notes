@@ -1,0 +1,44 @@
+need the conversion equation
+
+c -> t
+c(9/5)+32 = t
+
+t -> c
+t-32(5/9) = c
+
+
+
+all in one single component
+three files for this component 
+	template (html)
+		the text and other visual items on screen
+        lables
+        input boxes - two way data binding 
+        instructions
+        button
+
+	styling (css)
+        make it look pretty
+        component/visual elements layout - where on screen will things be?
+        colors, box model
+
+	component (ts)
+        conversion equations - functions/methods/behaviors
+        function for the button to do the conversions
+
+
+Today's intro topics:
+modules
+components
+directives
+decorators
+data binding one- and two-way [(Banana in a box)]
+
+
+
+our conversion operation:
+    as text in input changes, auto convert it
+    event listeners? event binding!
+
+    
+

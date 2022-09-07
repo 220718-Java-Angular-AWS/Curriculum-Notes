@@ -1,0 +1,18 @@
+<body>
+    <div>
+        This is a div element.
+    </div>
+
+    <script>
+        // selecting the <div> element
+        var elmt = document.querySelector('div');
+
+        //creating new <p> element and adding content inside it. 
+        var newElmt = document.createElement('p');
+        newElmt.innerHTML = '<b>The div element is replaced with p element</b>';
+
+        //replacing the <div> element with the <p> element
+        elmt.parentNode.replaceChild(newElmt, elmt);
+
+    </script>
+</body>

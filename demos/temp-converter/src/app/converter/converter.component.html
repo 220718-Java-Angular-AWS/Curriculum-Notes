@@ -1,0 +1,29 @@
+<!--template (html)
+	the text and other visual items on screen
+        lables
+        input boxes - two way data binding 
+        instructions
+        button
+
+
+        Event Binding
+Event binding allows us to bind DOM events such as keystrokes, button clicks, mouse overs, touches, etc to a function in the component. It is one way from template to the component class.
+
+Example: When we click the submit button, it calls the onSubmit() method defined in the component. Here, all DOM events are closed within parentheses.
+
+ <input type="text" name="value" [(ngModel)]="value">
+
+   fahrenheitTemp: number = 212;
+  celsiusTemp: number = 100;
+-->
+
+
+<h1>Temp Converter 9000!</h1>
+Enter a number into one of the boxes below, then click "convert".
+<hr>
+Temp in degrees Fahrenheit:
+<input name="fahrenheitInput" type="text" placeholder="212" [(ngModel)]="fahrenheitTemp" (ngModelChange)="convertFToC()"/>
+<br>
+<hr>
+Temp in degees Celsius:
+<input name="celsiusInput" type="text" placeholder="100" [(ngModel)]="celsiusTemp" (ngModelChange)="convertCToF()"/>

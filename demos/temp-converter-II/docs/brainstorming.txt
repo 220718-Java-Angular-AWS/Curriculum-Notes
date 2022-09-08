@@ -1,0 +1,23 @@
+Formulas:
+c -> t
+c(9/5)+32 = t
+
+t -> c
+t-32(5/9) = c
+
+
+We need to create two components, and a service. 
+We need to make sure the service is injected and available to our components.
+
+let's think about views/templates:
+we will have 2 components, both visible at the same time.
+    fahrenheit component   
+    celsius component
+each component will show its tempreture - we will use string interpolation here
+each component requires an input element and this should be even bound to some property(variable)
+    (we are not using banana-in-a-box syntax to do event&peroperty two-way binding, we will achieve the same 
+    using event binding to get data from view to component, and string interp to go the other way)
+
+next we need our service - converter - Remember not to add the words "service" or "component" to our names
+write some number of methods to do the conversion in our service. 
+When users type into one of the inputs, this change causes the conversion to occur.

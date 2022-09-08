@@ -1,0 +1,5 @@
+<h1>Fahrenheit</h1><br>
+<h3>{{converterService.fahrenheitTemp}}</h3><br>
+<input type="number" name="fahrenheitTemp" (keyup)="changeTemp($event)" placeholder="32">
+<!-- Isaac found a cool validation regex: oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" -->
+

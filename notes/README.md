@@ -150,6 +150,7 @@ Git, Linux, OOP, Intro to Java
  - [Continuous Integration](./devops/continuous-integration.md)
  - [Continuous Delivery and Deployment](./devops/continuous-delivery-deployment.md)
  - [Infrastructure as Code](./devops/devops-iac.md)
+ - [Jenkins](./devops/jenkins.md)
  - [Docker](./devops/docker.md)
    - [Docker Containers](./devops/docker-containers.md)
    - [Docker Workflow](./devops/docker-workflow.md)
